@@ -14,7 +14,7 @@ echo "---> copy the source files"
 cp -Rf /tmp/src/*.html ./
 
 echo "---> creaet info.html file"
-DATE=$(date "+%Y-%m-%d")
+#DATE=$(date "+%Y-%m-%d")
 echo "build image on ${DATE}" >> ./info.html
 echo "proud to made it by myself" >> ./info.html
 
